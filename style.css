@@ -16,7 +16,7 @@ body{
 }
 .container{
     padding-top: 10px;
-    height: 400px;
+    height: 450px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -182,7 +182,7 @@ label{
     position: relative;
     display: inline;
 }
-.field{
+.field > *{
     margin: 0.1rem 0;
     width: 150px;
 }
