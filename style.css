@@ -177,9 +177,14 @@ label{
 }
 .pass{
     margin-left: var(--margin-left);
+    margin-bottom: 1rem;
     cursor: pointer;
     position: relative;
     display: inline;
+}
+.field{
+    margin: 0.1rem 0;
+    width: 150px;
 }
 .pass::after{
     content: "";
